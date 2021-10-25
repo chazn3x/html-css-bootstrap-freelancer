@@ -1,3 +1,4 @@
+/* classi riutilizzabili */
 .ms_dark-background {
     background: rgb(44,61,80);
 }
@@ -9,4 +10,34 @@
 }
 .ms_max-width-container {
     max-width: 1000px;
+}
+.ms_flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#avatar {
+    max-width: 200px;
+}
+.star::before,
+.star::after {
+    content: '';
+    width: 15%;
+    max-width: 100px;
+    height: 4px;
+    border-radius: 2px;
+}
+.star-light::before,
+.star-light::after {
+    background-color: #fff;
+}
+.star-dark::before,
+.star-dark::after {
+    background-color: #000;
+}
+@media screen and (min-width: 768px) {
+    .star i {
+        font-size: 1.5rem !important;
+    }
 }
