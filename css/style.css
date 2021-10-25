@@ -3,10 +3,16 @@
     background: rgb(44,61,80);
 }
 .ms_dark-background_light {
-    background: rgb(57,84,109);
+    background: rgb(59,84,109);
 }
 .ms_aqua-background {
     background: rgb(26,188,156);
+}
+.ms_aqua-color {
+    color: rgba(26,188,156,0.7);
+}
+.ms_aqua-color:hover {
+    color: rgb(26,188,156);
 }
 .ms_max-width-container {
     max-width: 1000px;
@@ -20,27 +26,44 @@
 #avatar {
     max-width: 200px;
 }
-.star::before,
-.star::after {
+.ms_star::before,
+.ms_star::after {
     content: '';
     width: 15%;
     max-width: 100px;
     height: 4px;
     border-radius: 2px;
 }
-.star-light::before,
-.star-light::after {
+.ms_star-light::before,
+.ms_star-light::after {
     background-color: #fff;
 }
-.star-dark::before,
-.star-dark::after {
+.ms_star-dark::before,
+.ms_star-dark::after {
     background-color: #000;
 }
 @media screen and (min-width: 768px) {
-    .star i {
+    .ms_star i {
         font-size: 1.5rem !important;
     }
 }
 #floatingTextarea {
     height: 200px;
+}
+#icons {
+    max-width: 200px;
+}
+.ms_circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ms_circle:hover {
+    border: 1px solid rgb(26,188,156);
+    color: rgb(26,188,156);
+}
+#copyright {
+    font-size: .5rem;
 }
