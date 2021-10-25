@@ -7,3 +7,6 @@
 .ms_aqua-background {
     background: rgb(26,188,156);
 }
+.ms_max-width-container {
+    max-width: 1000px;
+}
