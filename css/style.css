@@ -14,9 +14,6 @@
 .ms_aqua-color:hover {
     color: rgb(26,188,156);
 }
-.ms_max-width-container {
-    max-width: 1000px;
-}
 .ms_flex-center {
     display: flex;
     justify-content: center;
